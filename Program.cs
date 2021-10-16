@@ -9,8 +9,8 @@ namespace Firstprogram
             // Program myProgram = new Program();
             //myProgram.Print();
 
-            string x = Console.ReadLine();
-            Console.WriteLine(x);          
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name + "!");          
 
         }
         /*
