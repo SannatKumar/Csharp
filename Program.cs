@@ -55,7 +55,7 @@ namespace Firstprogram
             */
 
 
-            ///*
+            /*
             //Working with Strings and Characters
 
             string name = "Raj";
@@ -67,8 +67,36 @@ namespace Firstprogram
 
             string message = $"hei There {name}, Whats going on? {myString} to you";
             Console.WriteLine(message);
+            */
 
-           
+            ///* string, properties and methods
+            ///
+            //string declaration
+            string name = "raj";
+            Console.WriteLine(name.Length);//Length is properties
+            Console.WriteLine(name.CompareTo("raj"));//Returns 0
+            Console.WriteLine(name.CompareTo("saj"));//Returns -1
+            Console.WriteLine(name.CompareTo("qaj"));//Returns 1
+
+            int position = name.IndexOf("j");
+            Console.WriteLine(position);//Returns index of j and is 2.
+            string Tame = "\t   TrimThis   ";
+            Console.WriteLine(Tame.Trim());//Returns space and tab free
+
+            // Split function
+
+            string myStatement = "Hello My Country is Nepal!";
+            Console.WriteLine(myStatement.Split(' '));
+            string[] words = myStatement.Split(' '); // Split words with space or any characters parameter
+            Console.WriteLine(words[4]);
+
+
+
+
+
+
+
+
         }
         /*
         void Print()
