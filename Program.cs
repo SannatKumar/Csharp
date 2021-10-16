@@ -90,9 +90,12 @@ namespace Firstprogram
             string[] words = myStatement.Split(' '); // Split words with space or any characters parameter
             Console.WriteLine(words[4]);
 
-
-
-
+            //Escape string
+            string myTesting = "\a\a\a\a\a\a\a\a\a\a\t Lets see the \a what it does"; 
+            Console.WriteLine(myTesting); //It makes sound and print the tab
+            //For more visit this: https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-160
+            //print the quotes
+            Console.WriteLine("hei There \"Raj\""); //prints the following(hei There "Raj")
 
 
 
