@@ -97,6 +97,12 @@ namespace Firstprogram
             //print the quotes
             Console.WriteLine("hei There \"Raj\""); //prints the following(hei There "Raj")
 
+            //working with verbatim string literals
+            string verbatimStatement = @"Hello \tMy Country \is ""Nepal!""";
+            Console.WriteLine(verbatimStatement);// prints this statement(Hello \tMy Country \is "Nepal!")
+
+
+
 
 
 
