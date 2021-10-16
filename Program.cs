@@ -18,18 +18,30 @@ namespace Firstprogram
             Console.ReadLine();
             */
 
+            /*
             //Math Learning
 
             double x = 50.5;
             double y = 59876;
             double z = 51.6;
+
+            //Get Round
             Console.WriteLine(Math.Round(x));
             Console.WriteLine(Math.Round(z,0, MidpointRounding.AwayFromZero));
             Console.WriteLine(Math.Ceiling(x));
             Console.WriteLine(Math.Floor(x));
             Console.WriteLine(Math.Truncate(z));
+
+            //get minimum and maximum
             Console.WriteLine(Math.Max(x,y));
             Console.WriteLine(Math.Min(x,y));
+
+            // get Positive Value
+            double b = -543;
+            Console.WriteLine(Math.Abs(b)); */
+
+
+
 
 
 
