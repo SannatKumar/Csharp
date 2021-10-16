@@ -9,8 +9,14 @@ namespace Firstprogram
             // Program myProgram = new Program();
             //myProgram.Print();
 
-            string name = Console.ReadLine();
-            Console.WriteLine($"Hello {name}!");    //String Interploation      
+            //string name = Console.ReadLine();
+            //Console.WriteLine($"Hello {name}!");    //String Interploation   
+            /*
+
+            Int32 myInt = 54;
+            Console.WriteLine(myInt);
+            Console.ReadLine();
+            */
 
         }
         /*
