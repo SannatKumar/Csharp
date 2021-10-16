@@ -46,19 +46,29 @@ namespace Firstprogram
             // Double Quotes means string
             // Wrong char letter = "a";
 
+            /*
             // Working with Tab
             char myTab = '\t';
 
             Console.WriteLine($"Hi Raj{myTab}Ok{myTab}. Lets see");
             Console.WriteLine("Hello\tRaj");
+            */
 
 
+            ///*
+            //Working with Strings and Characters
 
+            string name = "Raj";
+            //Character array definition and value initialization
+            char[] characters = { 'h', 'e', 'l', 'l', 'o' };
 
+            string myString = new string(characters);
+            Console.WriteLine(myString);
 
+            string message = $"hei There {name}, Whats going on? {myString} to you";
+            Console.WriteLine(message);
 
-
-
+           
         }
         /*
         void Print()
