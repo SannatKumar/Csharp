@@ -40,6 +40,20 @@ namespace Firstprogram
             double b = -543;
             Console.WriteLine(Math.Abs(b)); */
 
+            //Single quotes means character
+            //char letter = 'a';
+
+            // Double Quotes means string
+            // Wrong char letter = "a";
+
+            // Working with Tab
+            char myTab = '\t';
+
+            Console.WriteLine($"Hi Raj{myTab}Ok{myTab}. Lets see");
+            Console.WriteLine("Hello\tRaj");
+
+
+
 
 
 
