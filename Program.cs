@@ -6,15 +6,17 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
-            Program myProgram = new Program();
-            myProgram.Print();
+            // Program myProgram = new Program();
+            //myProgram.Print();
 
-            
+            string x = Console.ReadLine();
+            Console.WriteLine(x);          
 
         }
+        /*
         void Print()
         {
-            Console.WriteLine("Some Statement");
-        }
+            //Console.WriteLine("Some Statement");
+        }*/
     }
 }
