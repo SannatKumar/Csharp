@@ -6,6 +6,15 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            //Human Class 
+
+            Human human = new Human();
+
+            human.FirstName = "Adam";
+            human.LastName = "Nateshwor";
+            Console.WriteLine(human.GetFullName());
+            human.GetFullName();
             // Program myProgram = new Program();
             //myProgram.Print();
 
@@ -69,7 +78,7 @@ namespace Firstprogram
             Console.WriteLine(message);
             */
 
-            ///* string, properties and methods
+            /* string, properties and methods
             ///
             //string declaration
             string name = "raj";
@@ -100,6 +109,8 @@ namespace Firstprogram
             //working with verbatim string literals
             string verbatimStatement = @"Hello \tMy Country \is ""Nepal!""";
             Console.WriteLine(verbatimStatement);// prints this statement(Hello \tMy Country \is "Nepal!")
+            */
+
 
 
 
