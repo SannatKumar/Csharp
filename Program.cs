@@ -9,12 +9,25 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
+            //list Comparsion
+
+            List<int> grades1 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
+            List<int> grades2 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
+            if(grades1.SequenceEqual(grades2))
+            {
+                Console.WriteLine("Equal!"); //prints equal because the list are same and the condition is met
+            }
+
+            /*
+             //IndexOf and Contains method with List
+
             List<int> grades = new List<int>() { 5, 7, 11, 12, 16, 17, 55, 22, 1 };
             //if(grades.Contains(22))
             if(grades.IndexOf(25)== -1)// checks and returns true for 25 as it is not in the list 
             {
                 Console.WriteLine("Found");// prints found if the list contains value provided in the if statement expression.
             }
+            */
             /*
             //Short Hand Way of Initializng array
             //var grades = new List<int>() { 5, 10 };//short hand of the below code statement
