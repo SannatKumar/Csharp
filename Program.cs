@@ -6,12 +6,21 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //Array Sorting in Ascending order
+            int[] grades = { 30, 15, 16, 234, 6, 55, 2};
+            Array.Sort(grades);//Sorts the array
 
+            for(int i = 0; i<grades.Length; i++)
+            {
+                Console.WriteLine(grades[i]);
+            }
+
+            /*
             int[] grades = { 30, 40, 50, 60, 70 };
             Console.WriteLine(Array.IndexOf(grades, 40));// finds the index of the value
             Console.WriteLine(Array.IndexOf(grades, 55));//returns negative value (-1).
 
-
+            */
             /*
             // Arrays
             int[] grades = { 30, 40, 23, 10 };
@@ -211,14 +220,7 @@ namespace Firstprogram
 
             //working with verbatim string literals
             string verbatimStatement = @"Hello \tMy Country \is ""Nepal!""";
-            Console.WriteLine(verbatimStatement);// prints this statement(Hello \tMy Country \is "Nepal!")
-            */
-
-
-
-
-
-
+            Console.WriteLine(verbatimStatement);// prints this statement(Hello \tMy Country \is "Nepal!")         */
 
         }
         /*
