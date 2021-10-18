@@ -8,6 +8,27 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //Convert list to array
+            List<int> stuff = new List<int>() { 5 };
+            int[] myArr = stuff.ToArray(); // Converts the list to array
+            Console.WriteLine(myArr[0]);
+
+
+            int[][] studentGrades =
+            {
+                new int[]{ 5, 10, 7, 89, 32, 75, 13, 2 },
+                new int[]{ 9, 15, 2, 4, 3},
+                new int[]{ 0, 4, 6, 99},
+                new int[]{ 41, 42, 40, 49, 45, 46, 27}
+
+            };
+
+            List<int> myList = studentGrades[0].ToList();
+
+            Console.WriteLine(myList[4]);//prints the 4th index member that is 32 of the list
+
+            
+            /*
             //loops Working with Jagged Arrays
 
             int[][] studentGrades =
@@ -27,6 +48,7 @@ namespace Firstprogram
 
 
             }
+            */
 
             /*
             //Nested loops for collections like multidimensional arrays, lists inside lists, arrays
