@@ -8,6 +8,13 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            List<int> grades = new List<int>() { 5, 7, 11, 12, 16, 17, 55, 22, 1 };
+            if(grades.Contains(22))
+            {
+                Console.WriteLine("Found");// prints found if the list contains value provided in the if statement expression.
+            }
+            /*
             //Short Hand Way of Initializng array
             //var grades = new List<int>() { 5, 10 };//short hand of the below code statement
             List<int> grades = new List<int>() { 5, 10 };//list initialize using List keyword from System.Collections.Generic
@@ -23,6 +30,7 @@ namespace Firstprogram
             Console.ReadLine();
             //Console.WriteLine(grades[2]); // 
             //Console.WriteLine(grades[3]); // 
+            */
 
 
 
