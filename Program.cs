@@ -16,10 +16,17 @@ namespace Firstprogram
             Console.WriteLine(human.GetFullName());
             Console.WriteLine("What do you think the name is? ");
             string lastNameGuess = Console.ReadLine();
+
+            Console.WriteLine("Second Guess?");
+            string secondLastNameGuess = Console.ReadLine();
+
             //if (human.LastName == "Nateshwor") //first if statement checked against string
             if(human.LastName == lastNameGuess)// Checks against user input
             {
                 Console.WriteLine("You got the Last Name Validate against the string\" Nateshwor\"");
+            }else if (human.LastName == secondLastNameGuess)
+            {
+                Console.WriteLine("This can be put into half of your points");
             }
             else
             {
