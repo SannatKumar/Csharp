@@ -6,7 +6,15 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
-
+            
+            // Ternary Operator
+            // General Structure: expression? true: false
+            //bool correct = true;
+            bool correct = false;// check with false value
+            int pointsEarned = correct ? 10 : 0;
+            Console.WriteLine(pointsEarned);
+            
+            /*
             Console.WriteLine("Write the name of the countries");
             string countryName = Console.ReadLine();// For user Input
             //string countryName = "Finland"; // For hard typed country Name
@@ -23,6 +31,7 @@ namespace Firstprogram
                     break;
 
             }
+            */
             /*
             Console.WriteLine("What is your age?");
             int age = Int32.Parse(Console.ReadLine());
