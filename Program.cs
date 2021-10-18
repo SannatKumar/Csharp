@@ -7,6 +7,15 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //Jagged Arrays
+            int[][] grades =
+           {
+                new int[]{3, 4, 5, 6, },
+                new int[]{32, 54, 35, 26, 17, 15, 39 },
+                new int[]{1, 49, 15, 6, 78, 101 }
+            };
+            Console.WriteLine(grades[1] [5]); //prints 15 from the multidimesnional jagged array grades
+            /*
             //Initialzing Multi Dimensional Arrays
             int[,] grades =
            {
@@ -15,7 +24,7 @@ namespace Firstprogram
                 {1, 49, 15, 6, 78 }
             };
             Console.WriteLine(grades[0, 2]); //prints 5 from the multidimesnional array grades
-            
+            */
             /*
             //Multi-Dimensional Arrays
 
@@ -23,7 +32,7 @@ namespace Firstprogram
             grades[0, 2] = 7; // Provide md array index 0row,2 columns with value 7
             Console.WriteLine(grades[0, 2]); // Prints 7
             */
-            
+
             /*
             // Array Comparison using System.Linq
             
