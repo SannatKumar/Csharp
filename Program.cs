@@ -6,7 +6,24 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            //Nesting and printing 
+            int i = 9;
+            while (i >= 0)
+            {
+                int k = 1;
+                while (k >= 0)
+                {
+                    Console.WriteLine(k + " ");
+                    k--;
+                }
+                Console.WriteLine();
+                    i--;
+            }
+
             
+            
+            /*
             // Ternary Operator
             // General Structure: expression? true: false
             //bool correct = true;
