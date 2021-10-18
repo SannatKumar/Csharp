@@ -6,6 +6,23 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Write the name of the countries");
+            string countryName = Console.ReadLine();// For user Input
+            //string countryName = "Finland"; // For hard typed country Name
+            switch(countryName)
+            {
+                case "Finland":
+                    Console.WriteLine("Suomi in Native Language.");
+                    break;
+                case "Sweden":
+                    Console.WriteLine("Ruotsi in Finnish Language.");
+                    break;
+                default:
+                    Console.WriteLine("The Country is inValid.");
+                    break;
+
+            }
             /*
             Console.WriteLine("What is your age?");
             int age = Int32.Parse(Console.ReadLine());
