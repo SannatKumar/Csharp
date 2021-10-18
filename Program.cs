@@ -10,7 +10,8 @@ namespace Firstprogram
         {
 
             List<int> grades = new List<int>() { 5, 7, 11, 12, 16, 17, 55, 22, 1 };
-            if(grades.Contains(22))
+            //if(grades.Contains(22))
+            if(grades.IndexOf(25)== -1)// checks and returns true for 25 as it is not in the list 
             {
                 Console.WriteLine("Found");// prints found if the list contains value provided in the if statement expression.
             }
