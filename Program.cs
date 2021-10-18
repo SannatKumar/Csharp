@@ -8,6 +8,41 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            //Nested loops for collections like multidimensional arrays, lists inside lists, arrays
+            List<List<int>> studentGrades = new List<List<int>>()
+            {
+                new List<int>{ 5, 10, 7, 89, 32, 75, 13, 2 },
+                new List<int>{ 9, 15, 2, 4, 3},
+                new List<int>{ 0, 4, 6, 99},
+                new List<int>{ 41, 42, 40, 49, 45, 46, 27}
+
+            };
+            foreach(List<int> grades in studentGrades.ToArray())
+                {
+                foreach(int grade in grades)
+                {
+                    Console.WriteLine(grade);// prints all the elements inside list lists
+                }
+
+
+            }
+
+
+
+            /*
+            //foreach loop
+
+            List<int> grades1 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
+
+            foreach (int grade in grades1.ToArray())// works with converting to arrays as well
+            {
+                Console.WriteLine(grade);//prints all the values as grade from the list grades1
+            }
+            */
+
+
+            /*
             //List using foreach loop
 
             List<int> grades1 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
@@ -16,6 +51,7 @@ namespace Firstprogram
             {
                 Console.WriteLine(grade);//prints all the values as grade from the list grades1
             }
+            */
             /*
             //List for loop
             List<int> grades1 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
