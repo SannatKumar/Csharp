@@ -8,6 +8,13 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //Short Hand Way of Initializng array
+            //var grades = new List<int>() { 5, 10 };//short hand of the below code statement
+            List<int> grades = new List<int>() { 5, 10 };//list initialize using List keyword from System.Collections.Generic
+            Console.WriteLine(grades[0]); // prints 5 
+
+
+            /*
 
             //list definition and initialization
             List<int> grades = new List<int>();//list initialize using List keyword from System.Collections.Generic
@@ -15,7 +22,7 @@ namespace Firstprogram
             grades.Add(10);
             Console.WriteLine(grades[0]);//rerturns 5 that is added to index 0 of the List grades
             Console.WriteLine(grades[1]);//rerturns 10 that is added to index 1 of the List grades
-
+            */
             /*
             //Handling 2D arrays
             int[,] grades =
