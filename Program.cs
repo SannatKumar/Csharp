@@ -7,14 +7,22 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
-
+            //Initialzing Multi Dimensional Arrays
+            int[,] grades =
+           {
+                {3, 4, 5, 6, 7 },
+                {32, 54, 35, 26, 17 },
+                {1, 49, 15, 6, 78 }
+            };
+            Console.WriteLine(grades[0, 2]); //prints 5 from the multidimesnional array grades
             
+            /*
             //Multi-Dimensional Arrays
 
             int[,] grades = new int[3,5];//3 row and 5 column
             grades[0, 2] = 7; // Provide md array index 0row,2 columns with value 7
             Console.WriteLine(grades[0, 2]); // Prints 7
-
+            */
             
             /*
             // Array Comparison using System.Linq
