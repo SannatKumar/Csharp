@@ -8,7 +8,27 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //loops Working with Jagged Arrays
 
+            int[][] studentGrades =
+            {
+                new int[]{ 5, 10, 7, 89, 32, 75, 13, 2 },
+                new int[]{ 9, 15, 2, 4, 3},
+                new int[]{ 0, 4, 6, 99},
+                new int[]{ 41, 42, 40, 49, 45, 46, 27}
+
+            };
+            foreach (int[] grades in studentGrades)
+            {
+                foreach (int grade in grades)
+                {
+                    Console.WriteLine(grade + "\t");// prints all the elements inside list lists
+                }
+
+
+            }
+
+            /*
             //Nested loops for collections like multidimensional arrays, lists inside lists, arrays
             List<List<int>> studentGrades = new List<List<int>>()
             {
@@ -18,7 +38,7 @@ namespace Firstprogram
                 new List<int>{ 41, 42, 40, 49, 45, 46, 27}
 
             };
-            foreach(List<int> grades in studentGrades.ToArray())
+            foreach(List<int> grades in studentGrades)
                 {
                 foreach(int grade in grades)
                 {
@@ -27,9 +47,7 @@ namespace Firstprogram
 
 
             }
-
-
-
+            */
             /*
             //foreach loop
 
