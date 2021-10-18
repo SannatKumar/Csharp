@@ -8,12 +8,16 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
             //List for loop
             List<int> grades1 = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
             grades1.Count();// gives the number of elements in the list
             for(int i =0; i<grades1.Count(); i++)
             {
                 Console.WriteLine(grades1[i]);//prints all the values from the list
+                grades1[i] *= 2;
+                Console.WriteLine(grades1[i]);//prints all the values from the list multiplied by 2
+
             }
 
             /*
