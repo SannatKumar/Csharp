@@ -11,7 +11,12 @@ namespace Firstprogram
             //Short Hand Way of Initializng array
             //var grades = new List<int>() { 5, 10 };//short hand of the below code statement
             List<int> grades = new List<int>() { 5, 10 };//list initialize using List keyword from System.Collections.Generic
+            grades.Add(30);
+            Console.WriteLine(grades[2]); // prints 30 
             Console.WriteLine(grades[0]); // prints 5 
+            grades.Insert(2, 15);
+            Console.WriteLine(grades[2]); // prints 15 because 15 is inserted by grades.Insert Method and index 2 value is moved to index 3
+            Console.WriteLine(grades[3]); // prints 30 
 
 
             /*
