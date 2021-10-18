@@ -6,7 +6,6 @@ namespace Firstprogram
 {
     public class Human
     {
-        string middleName = "Kumar";
         public string FirstName { get; set; }
         public string LastName { get; set; }
 

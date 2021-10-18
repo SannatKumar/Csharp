@@ -14,6 +14,10 @@ namespace Firstprogram
             human.FirstName = "Adam";
             human.LastName = "Nateshwor";
             Console.WriteLine(human.GetFullName());
+            if(human.LastName == "Nateshwor")
+            {
+                Console.WriteLine("You got the Last Name Validate against the string\" Nateshwor\"");
+            }
             human.GetFullName();
             // Program myProgram = new Program();
             //myProgram.Print();
@@ -26,6 +30,7 @@ namespace Firstprogram
             Console.WriteLine(myInt);
             Console.ReadLine();
             */
+
 
             /*
             //Math Learning
