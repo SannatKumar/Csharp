@@ -7,6 +7,25 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
+            // Arrays
+            int[] grades = { 30, 40, 23, 10 };
+
+            bool found = false;
+
+            for (int i = 0; i< grades.Length; i++)
+            {
+                if(grades[i]== 50)
+                {
+                    Console.WriteLine("We Found it");
+                    found = true;
+                    break;
+                }                
+            }
+            if (!found)
+            {
+                Console.WriteLine("Not Found.");
+            }
+            /*
             //Nesting and printing 
             int i = 9;
             while (i >= 0)
@@ -20,9 +39,9 @@ namespace Firstprogram
                 Console.WriteLine();
                     i--;
             }
+            */
 
-            
-            
+
             /*
             // Ternary Operator
             // General Structure: expression? true: false
