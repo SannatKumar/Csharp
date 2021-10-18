@@ -7,6 +7,17 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+
+            //Handling 2D arrays
+            int[,] grades =
+            {
+                {3, 4, 5, 666, 71 },
+                {42, 53, 76, 98, 20 },
+                {2, 7, 999, 234, 4 }
+            };
+            Console.WriteLine(grades.GetLength(0));// prints the length of the rows 3
+            Console.WriteLine(grades.GetLength(1)); //prints the length of the columns 5
+            /*
             //Jagged Arrays
             int[][] grades =
            {
@@ -14,9 +25,10 @@ namespace Firstprogram
                 new int[]{32, 54, 35, 26, 17, 15, 39 },
                 new int[]{1, 49, 15, 6, 78, 101 }
             };
-            Console.WriteLine(grades[1] [5]); //prints 15 from the multidimesnional jagged array grades
+           Console.WriteLine(grades[1] [5]); //prints 15 from the multidimesnional jagged array grades
             Console.WriteLine(grades.Length);// gives the number of rows of jagged array
             Console.WriteLine(grades[2].Length); //gives the column length of index 2 row which is 6 
+            */
             /*
             //Initialzing Multi Dimensional Arrays
             int[,] grades =
