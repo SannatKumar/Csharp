@@ -17,6 +17,14 @@ namespace Firstprogram
             grades.Insert(2, 15);
             Console.WriteLine(grades[2]); // prints 15 because 15 is inserted by grades.Insert Method and index 2 value is moved to index 3
             Console.WriteLine(grades[3]); // prints 30 
+            grades.Remove(10);
+            Console.WriteLine(grades[0]); // 5
+            Console.WriteLine(grades[1]); // 15 because 10 is removed
+            Console.ReadLine();
+            //Console.WriteLine(grades[2]); // 
+            //Console.WriteLine(grades[3]); // 
+
+
 
 
             /*
@@ -340,10 +348,10 @@ namespace Firstprogram
             Console.WriteLine(verbatimStatement);// prints this statement(Hello \tMy Country \is "Nepal!")         */
 
         }
-            /*
-            void Print()
-            {
-                //Console.WriteLine("Some Statement");
-            }*/
-        }
+        /*
+        void Print()
+        {
+            //Console.WriteLine("Some Statement");
+        }*/
+    }
 }
