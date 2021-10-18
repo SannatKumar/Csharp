@@ -15,6 +15,8 @@ namespace Firstprogram
                 new int[]{1, 49, 15, 6, 78, 101 }
             };
             Console.WriteLine(grades[1] [5]); //prints 15 from the multidimesnional jagged array grades
+            Console.WriteLine(grades.Length);// gives the number of rows of jagged array
+            Console.WriteLine(grades[2].Length); //gives the column length of index 2 row which is 6 
             /*
             //Initialzing Multi Dimensional Arrays
             int[,] grades =
