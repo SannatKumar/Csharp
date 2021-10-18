@@ -8,6 +8,17 @@ namespace Firstprogram
     {
         static void Main(string[] args)
         {
+            //
+            List<int> myList = new List<int>() { 5, 10, 7, 89, 32, 75, 13, 2 };
+            myList.Reverse();// reversed the list
+            myList.Sort();// sorts the list
+            foreach(int values in myList)
+            {
+                Console.WriteLine(values);
+            }
+
+
+            /*
             //Convert list to array
             List<int> stuff = new List<int>() { 5 };
             int[] myArr = stuff.ToArray(); // Converts the list to array
@@ -26,8 +37,8 @@ namespace Firstprogram
             List<int> myList = studentGrades[0].ToList();
 
             Console.WriteLine(myList[4]);//prints the 4th index member that is 32 of the list
+            */
 
-            
             /*
             //loops Working with Jagged Arrays
 
