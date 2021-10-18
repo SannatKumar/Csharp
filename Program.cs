@@ -17,6 +17,14 @@ namespace Firstprogram
             };
             Console.WriteLine(grades.GetLength(0));// prints the length of the rows 3
             Console.WriteLine(grades.GetLength(1)); //prints the length of the columns 5
+            for(int i=0; i<grades.GetLength(0); i++)
+            {
+                for(int k = 0; k<grades.GetLength(1); k++)
+                {
+                    Console.WriteLine(grades[i, k] + " ");// prints all the values from the array
+                }
+                Console.WriteLine();
+            }
             /*
             //Jagged Arrays
             int[][] grades =
