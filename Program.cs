@@ -7,8 +7,15 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
+            int[] grades = { 30, 40, 50, 60, 70 };
+            Console.WriteLine(Array.IndexOf(grades, 40));// finds the index of the value
+            Console.WriteLine(Array.IndexOf(grades, 55));//returns negative value (-1).
+
+
+            /*
             // Arrays
             int[] grades = { 30, 40, 23, 10 };
+            
 
             bool found = false;
 
@@ -25,6 +32,7 @@ namespace Firstprogram
             {
                 Console.WriteLine("Not Found.");
             }
+            */
             /*
             //Nesting and printing 
             int i = 9;
