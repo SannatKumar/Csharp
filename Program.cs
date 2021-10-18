@@ -7,7 +7,19 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
+            Console.WriteLine("What is your age?");
+            int age = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("What is the Password?");
+            string password = Console.ReadLine();
+
+            if (age > 12 || password == "Password123")
+            {
+                Console.WriteLine("Welcome! You are atleast a teenager and got correct password");
+            }
+
             //Human Class 
+            /*
 
             Human human = new Human();
 
@@ -33,6 +45,7 @@ namespace Firstprogram
                 Console.WriteLine($"{lastNameGuess} is not matching with the stored Value");
             }
             human.GetFullName();
+            */
             // Program myProgram = new Program();
             //myProgram.Print();
 
