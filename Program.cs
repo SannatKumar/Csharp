@@ -14,9 +14,16 @@ namespace Firstprogram
             human.FirstName = "Adam";
             human.LastName = "Nateshwor";
             Console.WriteLine(human.GetFullName());
-            if(human.LastName == "Nateshwor")
+            Console.WriteLine("What do you think the name is? ");
+            string lastNameGuess = Console.ReadLine();
+            //if (human.LastName == "Nateshwor") //first if statement checked against string
+            if(human.LastName == lastNameGuess)// Checks against user input
             {
                 Console.WriteLine("You got the Last Name Validate against the string\" Nateshwor\"");
+            }
+            else
+            {
+                Console.WriteLine($"{lastNameGuess} is not matching with the stored Value");
             }
             human.GetFullName();
             // Program myProgram = new Program();
