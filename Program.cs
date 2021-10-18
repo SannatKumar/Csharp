@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Firstprogram
@@ -8,6 +9,14 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
+            //list definition and initialization
+            List<int> grades = new List<int>();//list initialize using List keyword from System.Collections.Generic
+            grades.Add(5);
+            grades.Add(10);
+            Console.WriteLine(grades[0]);//rerturns 5 that is added to index 0 of the List grades
+            Console.WriteLine(grades[1]);//rerturns 10 that is added to index 1 of the List grades
+
+            /*
             //Handling 2D arrays
             int[,] grades =
             {
@@ -25,6 +34,7 @@ namespace Firstprogram
                 }
                 Console.WriteLine();
             }
+            */
             /*
             //Jagged Arrays
             int[][] grades =
