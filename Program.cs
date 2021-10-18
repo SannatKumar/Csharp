@@ -8,7 +8,15 @@ namespace Firstprogram
         static void Main(string[] args)
         {
 
-            
+            /*
+            //Multi-Dimensional Arrays
+
+            int[,] grades = new int[3,5];//3 row and 5 column
+            grades[0, 2] = 7; // Provide md array index 0row,2 columns with value 7
+            Console.WriteLine(grades[0, 2]); // Prints 7
+
+            */
+            /*
             // Array Comparison using System.Linq
             
 
@@ -29,7 +37,7 @@ namespace Firstprogram
             {
                 Console.WriteLine("Not Equal");
             }
-
+            */
 
             /*
             //Index of Array and sorting, reversing"
